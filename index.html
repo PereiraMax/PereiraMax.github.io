@@ -1,0 +1,79 @@
+<!DOCTYPE   html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=devide-width; initial-scala=1.0"/>
+<title>Ejemplo de Diseño Adaptativo</title>
+<link href="color.css" rel="stylesheet" type="text/css" />
+<link href="base.css"  rel="stylesheet" type="text/css" />
+<link href="great.css" rel="stylesheet" type="text/css" media="screen and (min-width: 981px)"/>
+<link href="medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width:980px)"/>
+<link herf="mini.css"  rel="stylesheet" type="text/css" media="screen and(max-width 480px)"/>
+</head>
+<body>
+    <header>
+        <h1> Talen Camp C++ </h1>
+        <h2 class="display-great">Grande </h2>
+        <h2 class="display-medium">Mediano</h2>
+        <h2 class="display-mini">Mini</h2>
+    </header> 
+    <div id="wrapper">
+        <nav id="main-nav">
+        <h2>Información</h2>
+        <ul class ="menu display-great display-medium">
+            <li><a href="" > Uno </a></li>
+            <li><a href="" > Dos </a></li>
+            <li><a href="" > Tres </a></li>
+        </ul>
+        <select class="display-mini">
+            <option>Uno</option>
+            <option>Dos</option>
+            <option>Tres</option>
+        </select>
+        </nav>
+    <section id="main-section">
+        <h2> Información</h2>
+        
+        <article >
+            <h3><a href="">Introducción a la Programación en C++</a></h3>
+            <p class="display-great display-medium"> En este apartado se expone:
+                <ul>
+                   <li>Que nos impulsa a programar </li>
+                   <li>Pasos en el diseño del Software </li>
+                   <li>C++ </li> 
+                   <li>Beneficios de emplear C++</li>
+                   <li>Árbol Genealógico de C++</li>
+                   <li>Programación Procedimental </li>
+                   <li>Programación Orientada a Objeto</li>
+                   <li>Programación Generica</li>
+                   <li>Traducción </li>
+                   <li>Interpretes</li>
+                   <li>Compiladores</li>
+
+                </ul> 
+                <embed src="document/Introducción C++.pdf" type="application/pdf" width="100%" height="600px" />  
+            </p>
+        </article>
+        <article >
+            <h3><a href="">Entrada 2</a></h3>
+            <p class="display-great display-medium"> Un torum ipsum </p>
+        </article>
+        <article >
+            <h3><a href="">Entrada 3</a></h3>
+            <p class="display-great display-medium"> Un torum ipsum </p>
+        </article>   
+        </section>
+    </div>
+    <footer>
+        <p>
+            Profesor: Pereira Maximo Ariel 
+        </p>
+        <select class="display-mini">
+            <option> Uno</option>
+            <option> Dos</option>
+            <option> Tres</option>
+  
+        </select>    
+    </footer>   
+    </body>
+</html>                 
