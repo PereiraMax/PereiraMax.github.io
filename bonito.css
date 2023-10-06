@@ -1,0 +1,10 @@
+#title{
+    background-color: #5b59db;
+    background-image: url("Camp.gif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+   /* height: px; /* You must set a specified height */
+    background-position: center;
+    opacity: 0.75;
+    height: 200px;
+}
